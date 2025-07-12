@@ -65,30 +65,7 @@ ul li a{
 ul li{
     list-style: none;
 }
-/* Drop Down Bar */
-.drop-down{
-    position: absolute;
-    /* top: 30%;
-    left: -50px; */
-    list-style: none;
-    background-color: white;
-    text-align: center;
-    width: 150px;
-    border-radius: 0 0 15px 15px;
-    box-shadow: 2px 0px 8px 0px rgb(0 0 0 / 15%);
-    /* visibility: hidden; */
 
-}
-.drop-down li {
-  margin: 5px 0;
-}
-
-.producat-5:hover .drop-down{
-    visibility: visible;
-    top: 100%;
-    transition: 0.70s;
-
-}
 
 /* Banner Section */
 
