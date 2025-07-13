@@ -64,8 +64,35 @@ ul li a{
 }
 ul li{
     list-style: none;
+    cursor: pointer;
 }
 
+
+.drop-down-head{
+  position: relative;
+}
+.drop-down{
+    position: absolute;
+    list-style: none;
+    top: 0%;
+    right: -50px;
+    text-align: center;
+    padding: 24px 10px;
+    width: 150px;
+    border-radius: 0 0 15px 15px;
+    background-color: #F4F4F4;
+    visibility: hidden;
+        box-shadow: 2px 0px 8px 0px rgb(0 0 0 / 15%);
+}
+.drop-down li{
+    margin-top: 10px;
+}
+.drop-down-head:hover .drop-down{
+    top: 100%;
+    visibility: visible;
+        transition: 0.4s;
+
+}
 
 /* Banner Section */
 
