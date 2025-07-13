@@ -21,6 +21,7 @@
     rgb(19, 31, 255) 99.994%
   );;
   color: whitesmoke;
+  cursor: pointer;
 }
 
 
@@ -226,6 +227,7 @@ ul li{
     rgb(0, 0, 0) 99.994%
   );;
   color: whitesmoke;
+  cursor: pointer;
 }
 .tesajh{
     display: flex;
@@ -273,6 +275,7 @@ input[type="text"] , [type="email"] , [type="password"]{
     border: none;
     background-color: #ffffff;
     border-radius: 3px;
+    cursor: pointer;
 }
 input:focus{
     color: blueviolet;
@@ -289,4 +292,5 @@ input:focus{
     rgb(19, 31, 255) 99.994%
   );;
   color: whitesmoke;
+  cursor: pointer;
 }
